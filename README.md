@@ -1,4 +1,4 @@
-# Projects-R
+### Customer Churn Prediction
 
 This dataset includes variables :
 Gender,
@@ -10,15 +10,16 @@ Total charges,
 Tech support, and
 Churn.
 
-# Objective 
+## Objective 
 
 Prediction of customer churn
 
-# Feature selection
+## Feature selection
 Correlation plot was generated to identify if there is linear relationship between the variables. The independent variables didn't show any significant correlation with the dependent variable ( Churn ).
 
-# Model
+##  Model
 1.Logistic regression
+
 2.Random Forest
 
 Based on ROC curve, the Random Forest classifier predicts the churn with highest accuracy
