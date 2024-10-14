@@ -7,7 +7,7 @@ Monthly charges,
 Contract type,
 Internet service,
 Total charges,
-Tech support,
+Tech support, and
 Churn.
 
 We have used this dataset for churn prediction. 
