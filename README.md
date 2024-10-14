@@ -15,7 +15,7 @@ Churn.
 Prediction of customer churn
 
 # Feature selection
-Correlation plot was generated to identify the if there is linear relationship between the variables. The independent variables didn't show any significant correlation with the dependent variable ( Churn ).
+Correlation plot was generated to identify if there is linear relationship between the variables. The independent variables didn't show any significant correlation with the dependent variable ( Churn ).
 
 # Model
 #Logistic regression
