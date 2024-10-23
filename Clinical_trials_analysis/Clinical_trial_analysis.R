@@ -118,6 +118,18 @@ ggplot(pca_data, aes(x = PC1, y = PC2, color = cluster)) +
   theme_minimal()
 dev.off()
 
+annotated_data$cluster <- kmeans_result$cluster
+gene_clusters <- annotated_data[, c("IDH1", "TP53", "ATRX", "PTEN", "EGFR", 
+                                    "CIC", "MUC16", "PIK3CA", "NF1", 
+                                    "PIK3R1", "FUBP1", "RB1", "NOTCH1", 
+                                    "BCOR", "CSMD3", "SMARCA4", "GRIN2A", 
+                                    "IDH2", "FAT4", "PDGFRA", "cluster")]
+for(i in 1:max(gene_clusters)){
+  cat("\ncluster", i, "contains the following samples : \n")
+  print(gene_clusters[gene_clusters$cluster == i, ]) #Mutated gene samples belonging to each cluster
+}
+
+
 
 
 
