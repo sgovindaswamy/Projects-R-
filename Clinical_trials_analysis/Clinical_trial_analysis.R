@@ -1,3 +1,5 @@
+
+
 library(dplyr)
 library(summarytools)
 library(caret)
@@ -54,7 +56,11 @@ auc(roc_curve)  # Calculate AUC
 
 # MULTIVARIABLE ADAPTIVE REGRESSION SPLINES
 
-mars_model <- earth(Grade ~ ., data = annotated_data)
+mars_model <- earth(Grade ~ IDH1 + TP53 + ATRX + PTEN +
+                      EGFR + CIC + MUC16 + PIK3CA + NF1 +
+                      PIK3R1 + FUBP1 + RB1 + NOTCH1 + BCOR + 
+                      CSMD3 + SMARCA4 + GRIN2A + IDH2 + FAT4 +
+                      PDGFRA, data = annotated_data)
 summary(mars_model)
 mars_predictions <- predict(mars_model, annotated_data, type = "class")
 
