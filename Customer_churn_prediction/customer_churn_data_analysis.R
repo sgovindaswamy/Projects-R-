@@ -22,7 +22,7 @@ library(ggplot2)
 library(randomForest)
 library(pROC)
 
-data <- read.csv("C:/Users/sanja/Documents/GitHub/Projects-R-/customer_churn_data.csv")
+data <- read.csv("C:/Users/sanja/Documents/GitHub/Projects-R-/Customer_churn_prediction/customer_churn_data.csv")
 glimpse(data)
 data <- data[complete.cases(data),] #remove na's in case if there is any
 categorical_variables <- data %>% select(where(is.character))
