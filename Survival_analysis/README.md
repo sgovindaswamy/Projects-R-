@@ -1,1 +1,1 @@
-# Kaplan Meier Curves
+# SURVIVAL ANALYSIS
