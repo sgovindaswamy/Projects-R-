@@ -9,5 +9,5 @@ Advantages
 
 Disadvantages
 
-1)It doesn't consider other predictor variables or other risk factors while modeling
-2)It assumes the data is normally distributed
+1) It doesn't consider other predictor variables or other risk factors while modeling
+2) It assumes the data is normally distributed
