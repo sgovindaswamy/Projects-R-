@@ -5,6 +5,9 @@ This is parametric model which assumes that the underlying data distribution or 
 
 ![image](https://github.com/user-attachments/assets/d1a700d0-13cf-44a5-935d-e521898df155)
 
+![image](https://github.com/user-attachments/assets/be1fb29b-ec08-48be-8a70-e2b992f0de68)
+
+
 
 Advantages
 
