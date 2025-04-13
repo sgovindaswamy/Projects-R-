@@ -24,5 +24,8 @@ Correlation plot was generated to identify if there is linear relationship betwe
 
 Based on ROC curve, the Random Forest classifier predicts the churn with highest accuracy
 
+![image](https://github.com/user-attachments/assets/4f408d70-301d-44c2-89a4-16a6bce23d22)
+
+
 
 
