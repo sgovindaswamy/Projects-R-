@@ -17,3 +17,6 @@ Model 2 includes stone_size, and it is highly significant (p-value = 1.33e-07), 
 Model Fit:
 
 The residual deviance in Model 2 (662.87) is lower than in Model 1 (692.67), suggesting that including stone_size improves the model fit. The AIC for Model 2 (668.87) is lower than for Model 1 (696.67), which further suggests that adding stone_size improves the model's ability to predict the outcome.
+
+![image](https://github.com/user-attachments/assets/8c6a179b-969d-4620-ad08-13fc04756073)
+
