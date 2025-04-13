@@ -4,6 +4,9 @@ Simpson's paradox : This is a statistical phenomenon when the trend that appears
 
 The below plot is an illustration of simpson's paradox using a dataset that includes variables such treatment ( A or B ), success ( yes or no ), and kidney stone size ( small or large ). When modeling the relationship using multinomial logistic regression between treatment and success without including the kidney stone size, we can observe that the predicted probabilities for treatment B is higher than treatment A. While considering the stone size as confounder variable, treatment A is found to be significantly better than treatment B ( presence of simpson's paradox ) 
 
+![image](https://github.com/user-attachments/assets/8c6a179b-969d-4620-ad08-13fc04756073)
+
+
 ## Interpretation of results
 
 Treatment B:
@@ -18,5 +21,4 @@ Model Fit:
 
 The residual deviance in Model 2 (662.87) is lower than in Model 1 (692.67), suggesting that including stone_size improves the model fit. The AIC for Model 2 (668.87) is lower than for Model 1 (696.67), which further suggests that adding stone_size improves the model's ability to predict the outcome.
 
-![image](https://github.com/user-attachments/assets/8c6a179b-969d-4620-ad08-13fc04756073)
 
