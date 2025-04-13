@@ -8,9 +8,7 @@ The below plot is an illustration of simpson's paradox using a dataset that incl
 
 Treatment B:
 
-In Model 1, treatmentB has a positive coefficient (0.2899) but a non-significant p-value (0.129), indicating no clear relationship between treatment and success without considering stone_size.
-
-In Model 2, after adding stone_size, treatmentB becomes negative (-0.3572), but it still has a non-significant p-value (0.119), suggesting no strong evidence of treatment's effect once stone size is considered.
+In Model 1, treatmentB has a positive coefficient (0.2899) but a non-significant p-value (0.129), indicating no clear relationship between treatment and success without considering stone_size. In Model 2, after adding stone_size, treatmentB becomes negative (-0.3572), but it still has a non-significant p-value (0.119), suggesting no strong evidence of treatment's effect once stone size is considered.
 
 Stone Size:
 
@@ -18,6 +16,4 @@ Model 2 includes stone_size, and it is highly significant (p-value = 1.33e-07), 
 
 Model Fit:
 
-The residual deviance in Model 2 (662.87) is lower than in Model 1 (692.67), suggesting that including stone_size improves the model fit.
-
-The AIC for Model 2 (668.87) is lower than for Model 1 (696.67), which further suggests that adding stone_size improves the model's ability to predict the outcome.
+The residual deviance in Model 2 (662.87) is lower than in Model 1 (692.67), suggesting that including stone_size improves the model fit. The AIC for Model 2 (668.87) is lower than for Model 1 (696.67), which further suggests that adding stone_size improves the model's ability to predict the outcome.
